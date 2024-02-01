@@ -1,7 +1,7 @@
 {
     "id": "cc-ts-template-esbuild",
     "version": "0.0.1",
-    "name": "cc-ts-template-esbuild",
+    "title": "ts template esbuild",
     "description": "Example mod skeleton",
     "plugin": "plugin.js",
 	"icons": {
