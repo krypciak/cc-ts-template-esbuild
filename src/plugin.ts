@@ -1,6 +1,7 @@
+import { PluginClass } from 'ultimate-crosscode-typedefs/modloader/mod'
 import { Mod1 } from './types'
 
-export default class TsTemplateEsbuild {
+export default class TsTemplateEsbuild implements PluginClass {
     static dir: string
     static mod: Mod1
 
@@ -11,11 +12,7 @@ export default class TsTemplateEsbuild {
         TsTemplateEsbuild.mod.isCCModPacked = mod.baseDirectory.endsWith('.ccmod/')
     }
 
-    async prestart() {
-        console.log('cc-ts-template-esbuild prestart')
-    }
+    async prestart() {}
 
-    async poststart() {
-        console.log('cc-ts-template-esbuild poststart')
-    }
+    async poststart() {}
 }
