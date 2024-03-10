@@ -7,8 +7,8 @@
 ```bash
 git clone https://github.com/krypciak/cc-ts-template-esbuild
 cd cc-ts-template-esbuild
-npm install
-npm run start
+pnpm install
+pnpm run start
 # this should return no errors (hopefully)
 npx tsc
 ```
