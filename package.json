@@ -8,6 +8,7 @@
         "format": "prettier ./src -w; npx prettier ./assets -w --tab-width 4 --no-semi --print-width 500 --bracket-same-line"
     },
     "devDependencies": {
+        "@types/jquery": "^3.5.29",
         "@types/node": "^11.6.0",
         "@typescript-eslint/eslint-plugin": "^6.20.0",
         "@typescript-eslint/parser": "^6.20.0",
