@@ -1,6 +1,6 @@
 {
     "id": "cc-ts-template-esbuild",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "title": "ts template esbuild",
     "description": "Example mod skeleton",
     "repository": "https://github.com/krypciak/cc-ts-template-esbuild",
