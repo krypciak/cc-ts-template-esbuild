@@ -7,8 +7,8 @@ pnpm install
 pnpm run build
 mkdir -p pack
 cp -rf icon LICENSE plugin.js ./pack
-[ -f ./assets ] && cp -r assets ./pack
-[ -f ./lang ] && cp -r lang ./pack
+[ -d ./assets ] && cp -r assets ./pack
+[ -d ./lang ] && cp -r lang ./pack
 
 cd ./pack
 for file in $(find . -iname '*.json') $(find . -iname '*.json.patch') $(find . -iname '*.json.patch.cond'); do
