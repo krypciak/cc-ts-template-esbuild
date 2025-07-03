@@ -10,5 +10,5 @@ cd cc-ts-template-esbuild
 pnpm install
 pnpm run start
 # this should return no errors (hopefully)
-npx tsc
+pnpm tsc
 ```
