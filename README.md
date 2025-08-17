@@ -2,6 +2,8 @@
 
 # Example typescript CrossCode mod (compliation using esbuild)
 
+[![CCModManager badge](https://raw.githubusercontent.com/CCDirectLink/CCModManager/refs/heads/master/icon/badge.png)](https://github.com/CCDirectLink/CCModManager)
+
 ## Building
 
 ```bash
