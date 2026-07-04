@@ -7,10 +7,7 @@ settings:
 importers:
 
   .:
-    devDependencies:
-      '@types/bun':
-        specifier: ^1.3.14
-        version: 1.3.14
+    dependencies:
       '@types/chrome':
         specifier: ^0.2.2
         version: 0.2.2
@@ -20,12 +17,19 @@ importers:
       '@types/node':
         specifier: ^26.1.0
         version: 26.1.0
-      bun:
-        specifier: ^1.3.14
-        version: 1.3.14
       ccmodmanager:
         specifier: github:CCDirectLink/CCModManager
         version: https://codeload.github.com/CCDirectLink/CCModManager/tar.gz/40f10d1789cd91a0ec99fe242cbda35f35964375
+      ultimate-crosscode-typedefs:
+        specifier: github:krypciak/ultimate-crosscode-typedefs
+        version: https://codeload.github.com/krypciak/ultimate-crosscode-typedefs/tar.gz/e2ad700c8f592df05eef4ae36407a12a06a80be2
+    devDependencies:
+      '@types/bun':
+        specifier: ^1.3.14
+        version: 1.3.14
+      bun:
+        specifier: ^1.3.14
+        version: 1.3.14
       esbuild:
         specifier: ^0.28.1
         version: 0.28.1
@@ -38,9 +42,6 @@ importers:
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
-      ultimate-crosscode-typedefs:
-        specifier: github:krypciak/ultimate-crosscode-typedefs
-        version: https://codeload.github.com/krypciak/ultimate-crosscode-typedefs/tar.gz/e2ad700c8f592df05eef4ae36407a12a06a80be2
 
 packages:
 
