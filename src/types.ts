@@ -2,7 +2,6 @@ import 'ultimate-crosscode-typedefs'
 import type { Mod } from 'ultimate-crosscode-typedefs/modloader/mod'
 
 export type Mod1 = Writable<Mod> & {
-    isCCModPacked: boolean
     findAllAssets?(): void /* only there for ccl2, used to set isCCL3 */
 } & (
         | {
