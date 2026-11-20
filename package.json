@@ -6,7 +6,7 @@
         "watch": "esbuild --target=es2018 --format=esm --platform=node --bundle --sourcemap=inline --watch --outfile=plugin.js src/plugin.ts",
         "build": "esbuild --target=es2018 --format=esm --platform=node --bundle --outfile=plugin.js --minify-syntax --minify-whitespace src/plugin.ts",
         "pack": "bun pack.ts",
-        "format": "oxfmt"
+        "format": "bun fmt"
     },
     "type": "module",
     "devDependencies": {
@@ -14,7 +14,6 @@
         "bun": "^1.3.14",
         "esbuild": "^0.28.2",
         "fflate": "^0.8.3",
-        "oxfmt": "^0.60.0",
         "typescript": "^7.0.2"
     },
     "dependencies": {
